@@ -1,0 +1,16 @@
+{
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "MongoDB": {
+        "host": "ds127129.mlab.com",
+        "port": 27129,
+        "url": "",
+        "database": "peershelf",
+        "password": "aZw-FP9-Y8y-zqf",
+        "name": "MongoDB",
+        "user": "peershelf",
+        "connector": "mongodb"
+    }
+}
