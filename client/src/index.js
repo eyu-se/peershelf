@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ToolBar from "./toolbar"
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
+const App = () => (
+  <MuiThemeProvider>
+    <ToolBar />
+  </MuiThemeProvider>
+);
 
 ReactDOM.render(
-    React.createElement('h1', null, 'Peershelf App'),
+    <App/>,
     document.getElementById('root')
 );

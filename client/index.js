@@ -9,13 +9,10 @@ router.use(express.static('./public'));
 router.use(bodyParser.json());
 
 
-
-
-
 router.get('', (req, res) => {
     res.render(__dirname + '/views/index', {
-        content: "Hey All",
-        header: "Testing React Material"
+        content: "",
+        header: "Peer Shelf"
     });
 });
 export default router;

@@ -30,7 +30,8 @@
         "react-router-dom": "^4.2.2",
         "react-router-native": "^4.2.0",
         "serve-favicon": "^2.0.1",
-        "strong-error-handler": "^2.0.0"
+        "strong-error-handler": "^2.0.0",
+        "material-ui": "^0.20.0"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
